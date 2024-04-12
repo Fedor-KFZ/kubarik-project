@@ -1,0 +1,13 @@
+.ajaxcart .ajaxcart-list {
+    visibility: hidden;
+    opacity: 0;
+    text-align: left;
+    font-weight: normal;
+    text-transform: none;
+    transition: all .2s;
+}
+
+.ajaxcart:hover .ajaxcart-list {
+    visibility: visible;
+    opacity: 1;
+}
